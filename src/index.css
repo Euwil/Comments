@@ -1,0 +1,36 @@
+body {
+  background-color: #fef9d7;
+}
+
+.comment-form {
+  padding: 10px;
+    border: 1px solid black;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  
+}
+.submit-btn {
+  width: 200px;
+  background-color: rgb(230, 203, 168);
+  outline: none;
+  border: none;
+  padding: 10px;
+  
+}
+.comment-input {
+  resize: none;
+  margin-bottom: 10px;
+  background-color: rgb(253, 245, 234);
+  border-radius: 5px;
+}
+.name-input {
+  margin-bottom: 10px;
+  background-color: rgb(253, 245, 234);
+  border: 1px solid black;
+  border-radius: 5px;
+}
